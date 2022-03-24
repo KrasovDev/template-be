@@ -1,0 +1,17 @@
+{
+  "editor.renderWhitespace": "all",
+  "prettier.configPath": ".prettierrc",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+  ],
+  "eslint.format.enable": true,
+  "files.exclude": {
+    // "node_modules/": true,
+    // "dist/": true,
+    // "*.lock": true
+  }
+}
