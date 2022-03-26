@@ -1,8 +1,8 @@
 {
   "name": "template-be",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Starting point to create backend",
+  "author": "Vidieiv Dmytro",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -25,6 +25,8 @@
     "@nestjs/common": "8.4.2",
     "@nestjs/core": "8.4.2",
     "@nestjs/platform-fastify": "^8.4.2",
+    "@prisma/client": "^3.11.1",
+    "prisma": "^3.11.1",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
     "rxjs": "7.2.0"
