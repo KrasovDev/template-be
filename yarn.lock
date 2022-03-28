@@ -590,7 +590,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nestjs/axios@^0.0.7":
+"@nestjs/axios@0.0.7":
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/@nestjs/axios/-/axios-0.0.7.tgz#7f134636db13c2c1e8299365c7eceb73cd782b67"
   integrity sha512-at8nj+1Nb8UleHcIN5QqZYeWX54m4m9s9gxzVE1qWy00neX2rg0+h2TfbWsnDi2tc23zIxqexanxMOJZbzO0CA==
@@ -653,7 +653,7 @@
   resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-1.0.1.tgz#78b62041c7a407db4a90eb140567321602bed18e"
   integrity sha512-NFvofzSinp00j5rzUd4tf+xi9od6383iY0JP7o0Bnu1fuItAUkWBgc4EKuIQ3D+c2QI3i9pG1kDWAeY27EMGtg==
 
-"@nestjs/platform-fastify@^8.4.2":
+"@nestjs/platform-fastify@8.4.2":
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/@nestjs/platform-fastify/-/platform-fastify-8.4.2.tgz#c9dc3d94d8c4e4546149052caa32a1e16b659d53"
   integrity sha512-cdJirGXvchYBv4RpxIzo6sP/UHPIKdd2SLDiIc7nWTrNg6Jg/o3dVj2NMXEEEW9rpqG7YrsX+5mCXFTIMlXT+Q==
@@ -677,7 +677,7 @@
     jsonc-parser "3.0.0"
     pluralize "8.0.0"
 
-"@nestjs/swagger@^5.2.1":
+"@nestjs/swagger@5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-5.2.1.tgz#0fbd5dbc84aeebc2912009cce1309d4bebe9a52c"
   integrity sha512-7dNa08WCnTsW/oAk3Ujde+z64JMfNm19DhpXasFR8oJp/9pggYAbYU927HpA+GJsSFJX6adjIRZsCKUqaGWznw==
@@ -724,7 +724,7 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
-"@prisma/client@^3.11.1":
+"@prisma/client@3.11.1":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.11.1.tgz#bde6dec71ae133d04ce1c6658e3d76627a3c6dc7"
   integrity sha512-B3C7zQG4HbjJzUr2Zg9UVkBJutbqq9/uqkl1S138+keZCubJrwizx3RuIvGwI+s+pm3qbsyNqXiZgL3Ir0fSng==
@@ -2235,7 +2235,7 @@ fastify-static@^4.0.0:
     readable-stream "^3.4.0"
     send "^0.17.1"
 
-fastify-swagger@^5.1.0:
+fastify-swagger@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/fastify-swagger/-/fastify-swagger-5.1.0.tgz#c00049540cd7c752da67f90beb614f82d27ad4e4"
   integrity sha512-blV4vhuGXrFXo7+yR287D0v4gSxicgOQzfMTWS9nbjA2wIaf+/sxHEmaLUphnKilj3siURb9Bx69gy1eomv8Ng==
@@ -3862,7 +3862,7 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-prisma@^3.11.1:
+prisma@3.11.1:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.11.1.tgz#fff9c0bcf83cb30c2e1d650882d5eb3c5565e028"
   integrity sha512-aYn8bQwt1xwR2oSsVNHT4PXU7EhsThIwmpNB/MNUaaMx5OPLTro6VdNJe/sJssXFLxhamfWeMjwmpXjljo6xkg==
