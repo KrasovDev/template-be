@@ -23,7 +23,10 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
 ```
+
+Swagger UI is available on `${host}:${port}/api`
 
 ## Test
 
