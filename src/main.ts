@@ -14,9 +14,9 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle('NEST js swagger example')
+    .setTitle('BEANSTOX backoffice proxy service')
     .setDescription('The API description')
-    .setVersion('1.0')
+    .setVersion('0.1')
     .build();
 
   // Bootstrap swagger documentation
