@@ -137,19 +137,21 @@ export class BO_UsersController {
     formData.append('side', body.side);
     formData.append('documentImage', createReadStream(file.path));
 
-    return formData;
-    // return this.http
-    //   .post(`${this.BO_API_URL}/${prefix}/documents`, formData, {
-    //     headers: { ...this.defaultHeaders, [dwAuthToken]: token },
-    //   })
-    //   .pipe(
-    //     pluck('data'),
-    //     catchError((err) => {
-    //       console.log(err.response.status);
-    //       console.log(err.response.statusText);
-    //       console.log(err.response.data);
-    //       return of({ error: 'Error' });
-    //     }),
-    //   );
+    return this.http
+      .post(`${this.BO_API_URL}/${prefix}/documents`, formData, {
+        headers: {
+          ...this.defaultHeaders,
+          [dwAuthToken]: token,
+          Accept: 'application/json',
+          'Content-Type': 'multipart/form-data',
+        },
+      })
+      .pipe(
+        pluck('data'),
+        catchError((err) => {
+          const { status, statusText, data } = err.response;
+          return of({ error: 'Error', status, statusText, data });
+        }),
+      );
   }
 }
